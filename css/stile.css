@@ -37,10 +37,60 @@ text-align: center;
 .box{
   width: 120px;
   height: 140px;
-  background-color: red;
+  /* background-color: red; */
   border-radius:8px;
   position: relative;
   display: inline-block;
   margin:5px;
+  background-image: url(../img/pattern.png);
+  background-size: contain;
 
+}
+
+.box1{
+  background-color: white;
+  width: 120px;
+  height: 140px;
+  position: relative;
+  display: inline-block;
+  margin:5px;
+}
+
+
+.carta-girata{
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top:  10px;
+  left: 10px;
+}
+
+.testo-carta-girata{
+  font-family: 'Nerko One', cursive;
+  position: absolute;
+  bottom:5px;
+  left:20px;
+  font-size: 20px;
+}
+
+.testo-carta-girata:hover{
+  color: orange;
+}
+
+.tractor:hover{
+  background-image:url(../img/noun_Tractor_3134797.png);
+  background-repeat: no-repeat;
+  background-color: white
+}
+
+.tram:hover{
+  background-image:url(../img/noun_Tram_3134750.png);
+  background-repeat: no-repeat;
+  background-color: white
+}
+
+.submarine:hover{
+  background-image:url(../img/noun_Submarine_3134738.png);
+  background-repeat: no-repeat;
+  background-color: white
 }
