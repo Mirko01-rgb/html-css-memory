@@ -58,10 +58,10 @@ text-align: center;
 
 
 .carta-girata{
-  width: 100px;
-  height: 100px;
+  width: 120px;
+  height: 120px;
   position: absolute;
-  top:  10px;
+  top:  1px;
   left: 10px;
 }
 
@@ -80,7 +80,7 @@ text-align: center;
 .tractor:hover{
   background-image:url(../img/noun_Tractor_3134797.png);
   background-repeat: no-repeat;
-  background-color: white
+  background-color: white;
 }
 
 .tram:hover{
@@ -91,6 +91,23 @@ text-align: center;
 
 .submarine:hover{
   background-image:url(../img/noun_Submarine_3134738.png);
+  background-repeat: no-repeat;
+  background-color: white
+}
+
+.ship:hover{
+  background-image:url(../img/noun_Cruise_Ship_3134824.png);
+  background-repeat: no-repeat;
+  background-color: white
+}
+
+.bicycle:hover{
+  background-image:url(../img/noun_Bicycle_3134821.png);
+  background-repeat: no-repeat;
+  background-color: white
+}
+.ballon:hover{
+  background-image:url(../img/noun_air_balloon_3134741.png);
   background-repeat: no-repeat;
   background-color: white
 }
