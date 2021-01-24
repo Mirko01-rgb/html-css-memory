@@ -1,113 +1,145 @@
+
 *{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Nerko One', cursive;
 }
+
 
 
 body{
-  background-color: #ADD8E6
+  background-color: #ADD8E6;
 }
 
+
 h1 {
-font-family: 'Nerko One', cursive;
+font-size: 65px;
+text-align: center;
+margin:auto;
 color: white;
-margin:0;
 text-shadow:
 -1px -1px 0 #999,
 1px -1px 0 #000,
 -1px 1px 0 #999,
 1px 1px 0 #000;
-font-size: 65px;
-text-align: center;
 }
 
+
+
 .container{
-  height: 460px;
-  width: 540px;
-  /* border: 1PX solid black; */
-  margin-left: 710px;
-  margin-top: 20px;
+height: 460px;
+width: 540px;
+/* border: 1PX solid black; */
+margin:auto;
+height: auto;
+}
+
+.margintop{
+margin-top: 10px;
+}
+
+.linea{
+width: 120px;
+height: 140px;
+margin:5px;
+display: inline-block;
+}
+
+.carta{
+  width: 120px;
+  height: 140px;
+  background-image: url(../img/pattern.png);
+  background-size: contain;
+  background-color: white;
+  border-radius:8px;
+  position: relative;
+  margin:auto;
+}
+
+.carta-scoperta{
+width: 120px;
+height: 140px; 
+background-color: white;
+border-radius: 8px;
+position: relative;
+display: inline-block;
+margin:auto;
+}
+
+
+.carta-scoperta img, .carta img{
+width: 120px;
+/* height: 120px; */
+position: relative;
+display:block;
+}
+
+
+
+
+span{
+font-size: 20px;
+ display: none;
+position: absolute;
+text-align: center;
+width: 100%
+bottom: 20px;
+padding-left: 30px;
+color:#e33488 ;
+text-shadow:
+-1px -1px 0 #999,
+1px -1px 0 #000,
+-1px 1px 0 #999,
+1px 1px 0 #000;
+}
+
+
+.carta-scoperta-testo{
+  font-size: 20px;
+  display: block;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  right: 15px;
+  bottom: 3px;
+  text-shadow:
+  -1px -1px 0 #999,
+  1px -1px 0 #000,
+  -1px 1px 0 #999,
+  1px 1px 0 #000;
+
+
+}
+
+.carta img{
+  display: none;
+}
+
+ .carta:hover{
+  background-image: none;
+}
+
+.carta:hover img, .carta:hover span {
+  display: block;
+}
+
+span.testo-hover:hover{
+  color: orange;
+}
+
+span.carta-scoperta-testo:hover{
+  color: orange;
 }
 
 .margintop{
   margin-top: 10px;
-}
 
-.box{
-  width: 120px;
-  height: 140px;
-  /* background-color: red; */
-  border-radius:8px;
-  position: relative;
-  display: inline-block;
-  margin:5px;
-  background-image: url(../img/pattern.png);
-  background-size: contain;
 
 }
 
-.box1{
-  background-color: white;
-  width: 120px;
-  height: 140px;
-  position: relative;
-  display: inline-block;
-  margin:5px;
-}
-
-
-.carta-girata{
-  width: 120px;
-  height: 120px;
-  position: absolute;
-  top:  1px;
-  left: 10px;
-}
-
-.testo-carta-girata{
-  font-family: 'Nerko One', cursive;
-  position: absolute;
-  bottom:5px;
-  left:20px;
+footer{
   font-size: 20px;
-}
-
-.testo-carta-girata:hover{
-  color: orange;
-}
-
-.tractor:hover{
-  background-image:url(../img/noun_Tractor_3134797.png);
-  background-repeat: no-repeat;
-  background-color: white;
-}
-
-.tram:hover{
-  background-image:url(../img/noun_Tram_3134750.png);
-  background-repeat: no-repeat;
-  background-color: white
-}
-
-.submarine:hover{
-  background-image:url(../img/noun_Submarine_3134738.png);
-  background-repeat: no-repeat;
-  background-color: white
-}
-
-.ship:hover{
-  background-image:url(../img/noun_Cruise_Ship_3134824.png);
-  background-repeat: no-repeat;
-  background-color: white
-}
-
-.bicycle:hover{
-  background-image:url(../img/noun_Bicycle_3134821.png);
-  background-repeat: no-repeat;
-  background-color: white
-}
-.ballon:hover{
-  background-image:url(../img/noun_air_balloon_3134741.png);
-  background-repeat: no-repeat;
-  background-color: white
+  text-align: center;
+  margin-top: 10px;
 }
